@@ -1,4 +1,4 @@
-# HRAB! 🏃‍♀️💨
+# HRAB! 
 
 ![HRAB!](docs/cover.png)
 
