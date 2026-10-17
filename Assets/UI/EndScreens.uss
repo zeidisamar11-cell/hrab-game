@@ -1,0 +1,103 @@
+/* ===== Écrans de fin : Game Over et You Win ===== */
+.screen {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    border-width: 6px;
+    border-radius: 16px;
+    margin: 20px;
+}
+
+.content {
+    align-items: center;
+}
+
+.title {
+    font-size: 170px;
+    -unity-font-style: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: rgb(248, 248, 248);
+    font-size: 42px;
+    margin-bottom: 60px;
+}
+
+.replay-button {
+    width: 360px;
+    height: 100px;
+    font-size: 48px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-radius: 12px;
+    transition-duration: 0.15s;
+}
+
+/* ----- Game Over (rouge) ----- */
+.gameover-screen {
+    background-color: rgb(18, 13, 20);
+    border-color: rgb(72, 16, 24);
+}
+
+.gameover-title {
+    color: rgb(248, 40, 56);
+}
+
+.gameover-button {
+    background-color: rgb(168, 24, 32);
+    border-color: rgb(210, 60, 70);
+}
+
+.gameover-button:hover {
+    background-color: rgb(200, 40, 50);
+}
+
+.ghost {
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    background-image: url("GhostFaded.png");
+}
+
+.ghost-1 { left: 140px;  top: 560px; }
+.ghost-2 { right: 160px; top: 470px; }
+.ghost-3 { right: 520px; top: 760px; width: 180px; height: 180px; }
+
+/* ----- You Win (vert) ----- */
+.gamewin-screen {
+    background-color: rgb(4, 18, 20);
+    border-color: rgb(0, 56, 32);
+}
+
+.gamewin-title {
+    color: rgb(248, 224, 16);
+}
+
+.gamewin-button {
+    background-color: rgb(0, 136, 56);
+    border-color: rgb(40, 180, 90);
+}
+
+.gamewin-button:hover {
+    background-color: rgb(20, 170, 75);
+}
+
+.confetti {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("Confetti.png");
+}
+
+.pac-faded {
+    position: absolute;
+    left: 180px;
+    top: 600px;
+    width: 300px;
+    height: 300px;
+    background-image: url("PacFaded.png");
+}

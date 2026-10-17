@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="EndScreens.uss" />
+    <ui:VisualElement name="screen" class="screen gameover-screen">
+        <ui:VisualElement class="ghost ghost-1" />
+        <ui:VisualElement class="ghost ghost-2" />
+        <ui:VisualElement class="ghost ghost-3" />
+        <ui:VisualElement class="content">
+            <ui:Label text="GAME OVER" class="title gameover-title" />
+            <ui:Label text="Vous avez perdu toutes vos vies !" class="subtitle" />
+            <ui:Button name="replay-button" text="Rejouer" class="replay-button gameover-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="EndScreens.uss" />
+    <ui:VisualElement name="screen" class="screen gamewin-screen">
+        <ui:VisualElement class="confetti" />
+        <ui:VisualElement class="pac-faded" />
+        <ui:VisualElement class="content">
+            <ui:Label text="YOU WIN !" class="title gamewin-title" />
+            <ui:Label text="Tous les coins ont été collectés !" class="subtitle" />
+            <ui:Button name="replay-button" text="Rejouer" class="replay-button gamewin-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
